@@ -1,0 +1,74 @@
+.nav {
+    display: flex;
+    gap:20px;
+    background-color:rgba(255, 255, 255, 1e-06);
+    justify-content: space-between;
+}
+.container {
+   display: flex;
+   gap: 20px;
+   padding: 10px;
+   justify-content: space-evenly;
+}
+.nav-link {
+    text-decoration: none;
+    color:skyblue;
+}
+
+.container2 {
+  display: flex;
+  gap: :15px;
+  padding: 10px;
+}
+.item1 {
+    gap: 5px;
+
+}
+nav button {
+    color: skyblue;
+    
+}
+nav input {
+    color:rgb(203, 196, 196);
+    border:1 px;
+    width: 130px;
+}
+img {
+    width:100%;
+    height: 300px;
+}
+.cardcontainer {
+    
+    padding: 5px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.card {
+    width: 60px;
+    margin: 2px;
+}
+.Accordian{
+    display: flex;
+    padding:5px;
+    justify-content: space-between;
+}
+.Aitem {
+    padding-left: 5px;
+}
+.form{
+    padding:20px;
+}
+.formD {
+    background-color:white;
+    display: grid;
+    padding-top: 10px;
+    gap: 10px;
+    grid-template-columns: auto;
+}
+.detail {
+   border: 1px solid lightgray;
+    
+}
+table {
+    padding: 10px;
+}
